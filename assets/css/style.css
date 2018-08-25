@@ -462,7 +462,8 @@ body{
     #AboutMe 
     {
         margin-left: 15px;
-        width: 80%;
+        width: 100%;
+        margin-right: 15px;
     }
     #Name {
         position: fixed;
@@ -471,11 +472,10 @@ body{
         font-size: 10px;
         top: 0;
         left: 0;
+        display: block;
     }
     #PageTop
     {   
-        bottom: 0;
-        display: block;
         width: 100%;
         box-sizing:  border-box;
         padding: 20px 320px;
@@ -483,15 +483,18 @@ body{
 
     #a1 {
         width: 30%;
+        float: center;
 
     }
 
     #a2 {
-        right: 30%;
+        width: 30%;
+        float: center;
     }
 
     #a3 {
-        right: 30%;
+        width: 30%;
+        float: center;
     }
     #Contact {
         margin-left: 15px;
